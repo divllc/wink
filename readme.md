@@ -15,7 +15,7 @@ Wink uses a separate database connection and authentication system so that you d
 To install Wink, run these commands in the root of your Laravel app:
 
 ```sh
-composer require srikanth.240369/wink
+composer require divyamanchireddy19/wink
 php artisan wink:install
 php artisan storage:link
 ```
