@@ -92,7 +92,7 @@
          * Prepare the component.
          */
         mounted() {
-            document.title = "Edit Post — Wink.";
+            document.title = "Edit Post — Clapnumber Blog.";
 
             this.loadResources();
 
@@ -111,7 +111,7 @@
 
         computed: {
             postPreviewLink() {
-                return this.Wink.preview_path.replace('{postSlug}', this.form.slug);
+                return this.Wink.preview_path.replace('wink-draft/{postSlug}', this.form.slug);
             }
         },
 

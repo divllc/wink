@@ -31,7 +31,7 @@
          * Prepare the component.
          */
         mounted() {
-            document.title = "Team — Wink.";
+            document.title = "Team — Clapnumber Blog.";
 
             this.loadEntries();
         },
